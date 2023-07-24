@@ -5,3 +5,4 @@ let p = document.createElement("p");
 p.innerText = `${tg.initDataUnsafe.user.id}`;
 
 test.appendChild(p)
+document.write("zalupa");
