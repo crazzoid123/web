@@ -1,8 +1,7 @@
-// let tg = window.Telegram.WebApp;
-// tg.expand()
-// let test = document.getElementById("zal");
-// let p = document.createElement("p");
-// p.innerText = `${tg.initDataUnsafe.user.id}`;
+let tg = window.Telegram.WebApp;
+tg.expand()
+let test = document.getElementById("zal");
+let p = document.createElement("p");
 
-// test.appendChild(p)
+
 document.write("zalupa");
