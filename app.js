@@ -25,6 +25,15 @@ btn2.addEventListener('click', function() {
     tg.MainButton.show();
   }
 });
+btn3.addEventListener('click', function() {
+  if (tg.MainButton.isVisible) {
+    tg.MainButton.hide();
+  } else {
+    tg.MainButton.setText('Liked');
+    item = 'like';
+    tg.MainButton.show();
+  }
+});
 // Correct the function definition below and remove the extra closing parenthesis after 'mainButtonClicked'
 Telegram.WebApp.onEvent('mainButtonClicked', function() {
   tg.sendData(item);
