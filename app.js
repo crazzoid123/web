@@ -11,7 +11,16 @@ btn1.addEventListener('click', function() {
   if (tg.MainButton.isVisible) {
     tg.MainButton.hide();
   } else {
-    tg.MainButton.setText('Like');
+    tg.MainButton.setText('Liked');
+    item = 'like';
+    tg.MainButton.show();
+  }
+});
+btn2.addEventListener('click', function() {
+  if (tg.MainButton.isVisible) {
+    tg.MainButton.hide();
+  } else {
+    tg.MainButton.setText('Liked');
     item = 'like';
     tg.MainButton.show();
   }
