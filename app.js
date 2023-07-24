@@ -11,6 +11,7 @@ let btn3 = document.getElementById('btn3');
 let item = ''; // Add "let" keyword to properly declare the variable.
 
 btn1.addEventListener('click', function() {
+  document.write('lol');
   if (tg.MainButton.isVisible) {
     tg.MainButton.hide();
   } else {
