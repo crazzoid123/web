@@ -7,31 +7,17 @@ let btn1 = document.getElementById('btn1');
 let btn2 = document.getElementById('btn2');
 let btn3 = document.getElementById('btn3');
 let item = ''; // Add "let" keyword to properly declare the variable.
-btn1.addEventListener('click', function() {
-  if (tg.MainButton.isVisible) {
-    tg.MainButton.hide();
-  } else {
-    tg.MainButton.setText('Liked');
-    item = 'like';
-    tg.MainButton.show();
+tg.MainButton.show();
+btn1.addEventListener('click', function() {  
+    item = 'like1';
   }
 });
 btn2.addEventListener('click', function() {
-  if (tg.MainButton.isVisible) {
-    tg.MainButton.hide();
-  } else {
-    tg.MainButton.setText('Liked');
-    item = 'like';
-    tg.MainButton.show();
+    item = 'like2';
   }
 });
 btn3.addEventListener('click', function() {
-  if (tg.MainButton.isVisible) {
-    tg.MainButton.hide();
-  } else {
-    tg.MainButton.setText('Liked');
-    item = 'like';
-    tg.MainButton.show();
+    item = 'like3';
   }
 });
 // Correct the function definition below and remove the extra closing parenthesis after 'mainButtonClicked'
