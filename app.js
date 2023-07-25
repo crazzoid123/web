@@ -38,3 +38,6 @@ btn3.addEventListener('click', function() {
 Telegram.WebApp.onEvent('mainButtonClicked', function() {
   tg.sendData(item);
 });
+Telegram.WebApp.onEvent('backButtonClicked', function() {
+  tg.sendData(item);
+});
