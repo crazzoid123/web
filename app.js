@@ -7,7 +7,7 @@ let btn1 = document.getElementById('btn1');
 let btn2 = document.getElementById('btn2');
 let btn3 = document.getElementById('btn3');
 let item = ''; // Add "let" keyword to properly declare the variable.
-tg.BackButton.isVisible = 'True';
+tg.BackButton.isVisible = true;
 tg.BackButton.show()
 btn1.addEventListener('click', function() {
   if (tg.MainButton.isVisible) {
