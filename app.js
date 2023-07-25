@@ -9,7 +9,7 @@ let btn3 = document.getElementById('btn3');
 let item = ''; // Add "let" keyword to properly declare the variable.
 
 tg.MainButton.isVisible=true;
-
+tg.MainButton.show();
 btn1.addEventListener('click', function() {  
     item = 'like1';
   }
