@@ -8,8 +8,7 @@ let btn2 = document.getElementById('btn2');
 let btn3 = document.getElementById('btn3');
 let item = ''; // Add "let" keyword to properly declare the variable.
 
-tg.MainButton.isVisible=true;
-tg.MainButton.show();
+tg.mainButton.isVisible=true;
 btn1.addEventListener('click', function() {  
     item = 'like1';
   }
@@ -24,8 +23,5 @@ btn3.addEventListener('click', function() {
 });
 // Correct the function definition below and remove the extra closing parenthesis after 'mainButtonClicked'
 Telegram.WebApp.onEvent('mainButtonClicked', function() {
-  tg.sendData(item);
-});
-Telegram.WebApp.onEvent('backButtonClicked', function() {
   tg.sendData(item);
 });
