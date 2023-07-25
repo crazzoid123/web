@@ -8,7 +8,8 @@ let btn2 = document.getElementById('btn2');
 let btn3 = document.getElementById('btn3');
 let item = ''; // Add "let" keyword to properly declare the variable.
 
-tg.mainButton.show();
+tg.MainButton.setText('like')
+tg.MainButton.show();
 btn1.addEventListener('click', function() {  
     item = 'like1';
   }
