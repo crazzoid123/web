@@ -10,16 +10,3 @@ let item = ''; // Add "let" keyword to properly declare the variable.
 
 tg.MainButton.setText('Like');
 tg.MainButton.show();
-btn1.addEventListener('click', function() {  
-    item = 'like1';
-});
-btn2.addEventListener('click', function() {
-    item = 'like2';
-});
-btn3.addEventListener('click', function() {
-    item = 'like3';
-});
-// Correct the function definition below and remove the extra closing parenthesis after 'mainButtonClicked'
-Telegram.WebApp.onEvent('mainButtonClicked', function() {
-  tg.sendData(item);
-});
